@@ -1,6 +1,8 @@
 ## Keeper App
 This application is a simple keeper app where a user can post, update and delete a particular task. Clone it and give it a spin!
 
+![Keeper App](https://github.com/SeckMohameth/Keeper-App/blob/master/Images/Screen%20Shot%202020-04-21%20at%206.02.14%20PM.png?raw=true)
+
 # Getting Started with Create React App
 <h1>Keeper</h1>
 This website aims to make an app which would help people keep a track of their notes, events and other stuff.
