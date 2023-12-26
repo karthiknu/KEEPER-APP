@@ -1,0 +1,107 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  background-color: rgb(231, 231, 231);
+}
+.heading {
+  -webkit-box-shadow: 1px 3px 12px -3px #a5a5a5;
+  box-shadow: 1px 3px 12px -3px #a5a5a5;
+  padding: 1rem;
+  text-align: left;
+  margin-top: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(250, 175, 45);
+}
+
+.notes {
+  display: inline-block;
+  margin: 1rem;
+}
+.notes-body {
+  border-radius: 10px;
+  background-color: white;
+  max-width: 25rem;
+  min-width: 18rem;
+  padding: 1rem;
+}
+.notes-body h3 {
+  text-align: center;
+}
+.hr-line {
+  max-width: 4rem;
+  opacity: 0.37;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(137, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+.center {
+  text-align: right;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba17;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+.delete {
+  letter-spacing: 3px;
+  width: 15%;
+  background-color: white;
+  border: none;
+  font-size: 16pt;
+  font-weight: bold;
+  padding: 0.5rem 0.1rem;
+  border-radius: 100px;
+  cursor: pointer;
+  outline: none;
+}
+.fas {
+  color: #f5ba13;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  font-weight: bold;
+  font-size: 1rem;
+  opacity: 0.4;
+  color: #f5ba17;
+  position: fixed;
+  bottom: 0;
+
+}
+.footer p {
+  text-align: center;
+}
